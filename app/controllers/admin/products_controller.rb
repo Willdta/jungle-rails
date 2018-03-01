@@ -1,5 +1,7 @@
 class Admin::ProductsController < ApplicationController
 
+  :basic_authenticate
+
   def index
     @products = Product.order(id: :desc).all
   end
