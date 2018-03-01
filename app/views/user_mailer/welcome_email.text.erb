@@ -1,0 +1,7 @@
+Thanks for shopping with us! Here is what you ordered:
+  <% @order.line_items.each do |item| %>
+    <% product = Product.find(item.product_id) %>
+    Name: <%= product.name %>
+    Quantity: <%= item.quantity %>
+  <% end %>
+  Total: <%= @order.total %>
