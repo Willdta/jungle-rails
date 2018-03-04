@@ -11,7 +11,8 @@ class UsersController < ApplicationController
       redirect_to '/'
   
     else
-      redirect_to '/signup'
+      # redirect_to '/signup'
+      redirect_to :back
     end
   end
 

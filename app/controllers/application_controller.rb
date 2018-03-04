@@ -8,6 +8,12 @@ class ApplicationController < ActionController::Base
   end
   helper_method :current_user
 
+  def show_review(user_id)
+    @show_review = User.find(user_id)
+    "#{@show_review.first_name} #{@show_review.last_name}"
+  end
+  helper_method :show_review
+
   private
 
   def cart
