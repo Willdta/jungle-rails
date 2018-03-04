@@ -4,8 +4,8 @@ A mini e-commerce application built with Rails 4.2 for purposes of teaching Rail
 
 ## Pics
 
-["Home Page"]()
-["Order Page"]()
+!["Home Page"](https://github.com/Willdta/jungle-rails/blob/master/docs/homepage.PNG?raw=true)
+!["Order Page"](https://github.com/Willdta/jungle-rails/blob/master/docs/orderpage.PNG?raw=true)
 
 ## Setup
 
